@@ -5,10 +5,11 @@ const list = document.getElementById('list')
 input_field.value = ''
 function getInputValue() {
     if(input_field.value !== ''){
-        let submisson = input_field.value
+        
         let newItemBlock = document.createElement('div')
         newItemBlock.className = 'itemBlock'
         let newItem = document.createElement('li')
+        let submisson = input_field.value
         newItem.innerText = `${submisson}`
         let newdeleteBtn = document.createElement('button')
         newdeleteBtn.className = 'deleteBtn'
