@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+
+}
+
+
+
+body {
+    padding: 0;
+    margin: 0;
+    background-color: #333;
+    overflow-x: hidden;
+    
+   
+   
+    
+ 
+}
+
+section {
+    position: relative;
+    top: 100px;
+    left: 100px;
+     margin: 0;
+}
+
+@media screen and (max-width: 670px) {
+    section {
+        top: 20px;
+        left: 20px;
+    }
+
+    input {
+        width: 100%;
+    }
+}
+
+@media  screen and (max-width: 500px) {
+    section {
+        top: 20px;
+        left: 0;
+    }
+    
+}
+li {
+    color: white;
+    text-align: justify;
+}
+#list {
+  
+    margin: 0;
+}
+.header {
+    display: flex;
+    margin: 0;
+    width: 100%;
+ 
+}
+
+.group {
+    display: flex;
+}
+.button {
+    margin: 0;
+    border-radius: 0;
+    border-color: transparent;
+
+}
+
+input {
+    margin: 0;
+    border-radius: 0;
+    border-color: transparent;
+    background-color: #D9D9D9;
+    border-radius: 0px 20px 20px 0px;
+    width: 500px;
+
+}
+
+input::placeholder {
+    font-size: 10px;
+    
+
+}
+
+#clear {
+    background-color: #B94B59;
+    padding: 0 15px;
+   
+   
+
+}
+
+#add {
+    background-color: #76c87C;
+    padding: 0 15px;
+    font-size: 20px;
+
+   
+}
+
+.itemBlock {
+    display: flex;
+    width: 200px;
+    height: auto;
+}
+
+.deleteBtn {
+    margin-left: 20px;
+
+}
+
+ul {
+    
+
+}
+
+.itemBlock {
+    padding: 20px;
+}
